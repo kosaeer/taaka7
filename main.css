@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF4D4D;
+    text-align: center;
+}
+
+.content {
+    color: #FFF;
+    text-align: center;
+}
+
+.header .content .image {
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.header .content .image img {
+    width: 100px;
+    height: 100px;
+}
+
+.header .cround {
+    position: relative;
+    bottom: -14px;
+
+}
+
+.header .cround img {
+    width: 70px !important;
+    height: 70px !important; 
+}
+
+.content .title h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.content .login { 
+    display: flex;
+    font-family: 'Lato', sans-serif;
+
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.content .login p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.content .login p span {
+    font-weight: 600;
+}
+
+.content .login button {
+    width: 100%;
+    background: #24C68A;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 14px;
+    color: #FFF;
+}
