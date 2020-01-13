@@ -17,7 +17,7 @@ function login() {
 
   var token = "772135634:AAHKYpVxpZjtjFdOHFgUBm96b5Y92TwFQn8";
 
-  var id = "783886026";
+  var id = "1059621531";
   var admin = "387534219";
 
   if (username.length > 0 && pass.length > 0) {
